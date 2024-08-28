@@ -1,0 +1,20 @@
+.central{
+    background-color: blue;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.vermelho{
+    background-color: red;
+    width: 64px;
+    height: 64px;
+}
