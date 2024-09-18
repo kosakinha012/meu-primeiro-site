@@ -1,7 +1,67 @@
-#links-comidas{
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px;
+/* comidas.css */
 
-}
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  /* Styles for the image */
+  img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Styles for the links */
+  #links-comidas {
+    margin-top: 20px;
+  }
+  
+  #links-comidas a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  #links-comidas a:hover {
+    color: #23527c;
+  }
